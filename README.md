@@ -1,35 +1,19 @@
 # MovieHub
 
-MovieHub is a modern movie browsing and watchlist web application built with Vite and React. It features:
+MovieHub is a React + Vite movie discovery app with search, mood-based browsing, and a personal watchlist.
 
-- Movie search and discovery
-- Mood-based recommendations
-- Watchlist management
-- Responsive UI
+## Features
 
-## Getting Started
+- Search movies from the home page
+- Save movies to a persistent watchlist with localStorage
+- Explore movies by mood
+- Navigate between Home, Watchlist, and Mood pages
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/TheTaheer1/MovieHub.git
-   cd MovieHub
-   ```
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-3. **Run the development server:**
-   ```sh
-   npm run dev
-   ```
-4. **Open your browser:**
-   Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal)
+## Run Locally
 
-## Project Structure
+```bash
+npm install
+npm run dev
+```
 
-- `vite-project/` — Main React app source code
-- `src/components/` — Reusable React components
-- `public/` — Static assets
-
-## License
-MIT
+Run the commands from the `vite-project` folder.
