@@ -1,0 +1,13 @@
+{
+  "name": "moviehub-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix vite-project run dev",
+    "build": "npm --prefix vite-project run build",
+    "preview": "npm --prefix vite-project run preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
